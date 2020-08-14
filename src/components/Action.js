@@ -14,7 +14,7 @@ export default class Action extends React.Component {
         e.target.elements.gpa.value= '';
       }
     } else {
-      const error = "Error: Desired GPA is not a valid number.";
+      const error = "Error: Desired GPA is not a valid number";
       this.setState(() => ({ error }));
     }
   };
