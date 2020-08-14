@@ -1,0 +1,46 @@
+// Add Option Error
+.add-item-error {
+  color: $off-white;
+  font-style: italic;
+  margin: $m-size 0 0 0;
+  padding: 0 $m-size;
+}
+
+// Add Option
+.add-item {
+  display: flex;
+  flex-direction: column;
+  padding: $m-size;
+}
+
+.add-item__input {
+  background: $dark-blue;
+  border: none;
+  color: $off-white;
+  border-bottom: .3rem solid darken($dark-blue, 10%);
+  flex-grow: 1;
+  margin: 0 0 $s-size 0;
+  padding: $s-size;
+}
+
+.add-item__gpa {
+  background: $light-blue;
+  border: none;
+  color: $off-white;
+  border-bottom: .3rem solid darken($dark-blue, 10%);
+  flex-grow: 1;
+  margin: 0 0 $s-size 0;
+  padding: $s-size;
+  height: 30px;
+  margin-top: 3px;
+  margin-right: 15px;
+}
+
+@media (min-width: $desktop-breakpoint) {
+  .add-item {
+    flex-direction: row;
+  }
+  .add-item__input {
+    margin: 0 $s-size 0 0;
+  }
+}

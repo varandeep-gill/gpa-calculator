@@ -1,0 +1,25 @@
+.title {
+  background: $off-black;
+  color: white;
+  margin-bottom: $m-size;
+  padding: $m-size 0;
+}
+
+.title__text {
+  font-size: $l-size;
+  margin: 0;
+  color: blue;
+}
+
+.title__name {
+  font-size: $l-size;
+  margin: 0;
+  color: lightblue;
+  font-size: 16px;
+}
+
+@media (min-width: $desktop-breakpoint) {
+  .header {
+    margin-bottom: $xl-size;
+  }
+}
