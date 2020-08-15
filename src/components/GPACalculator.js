@@ -48,9 +48,8 @@ export default class GPACalculator extends React.Component {
     
     for (i = 0; i < this.state.marks.length; i++) {
       sumOfWeights += parseFloat(this.state.weights[i], 10);
-
     }
-    //add if statement for sumOfWeights = 100
+
     if (sumOfWeights == 1) {
       console.log(sumOfWeights);
       var totalGrade = 0;
