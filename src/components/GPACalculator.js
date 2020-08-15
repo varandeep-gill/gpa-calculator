@@ -90,7 +90,7 @@ export default class GPACalculator extends React.Component {
     return "Mark needed on exam is " + examGrade + "%";
   };
 
- 
+
   componentDidMount() {
     try { 
       const jsonItems = localStorage.getItem('items');
