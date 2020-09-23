@@ -2,3 +2,7 @@
 
 This is an app developed by me to experiment with ReactJS and other libraries. Its two main capabilities are calculating overall mark given all assessments, and calculating 
 the final exam mark needed to achieve a certain GPA.
+
+Hosted at https://varans-gpa-calculator.herokuapp.com/
+
+Created by Varan Gill
